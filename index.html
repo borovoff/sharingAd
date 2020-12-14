@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>Шеринг велосипедов самокатов для бизнеса</title>
+    <style>
+        html {
+            --create-color: rgb(185, 216, 213);
+            --example-color: rgb(221, 222, 203);
+            --button-color: rgb(192, 86, 56);
+        }
+
+        body {
+            margin: 0;
+            font-family: Helvetica, sans-serif;
+        }
+
+        .column {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .column_center {
+            align-items: center;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .link {
+            color: black;
+        }
+
+        .button {
+            background-color: var(--button-color);
+            color: var(--create-color);
+            border: none;
+            padding: 10px;
+            max-width: 300px;
+        }
+
+        .main {
+        }
+
+        .header {
+
+        }
+
+        .img {
+            height: 200px;
+        }
+
+        .img_cloud {
+            width: 100%;
+            align-self: center;
+        }
+
+        .create_sharing {
+            background: var(--create-color);
+        }
+
+        .examples {
+            background-color: var(--example-color);
+        }
+
+        .nav {
+            border-bottom: 1px solid;
+            border-color: var(--button-color);
+            display: flex;
+        }
+
+        .nav_link {
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        .end_item {
+            flex-grow: 1;
+            text-align: end;
+        }
+
+        .nav_padding {
+            padding: 20px 70px;
+        }
+
+        .footer {
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+<div class="create_sharing nav_padding">
+    <nav class="nav">
+        <a class="link nav_link" href="#create_sharing">Примеры работ</a>
+        <a class="link nav_link" href="#example">Замки</a>
+        <a class="link nav_link end_item" href="#contacts">Контакты</a>
+    </nav>
+</div>
+<main class="main column">
+    <div
+            id="create_sharing"
+            class="create_sharing column nav_padding">
+        <div class="column">
+            <div class="row">
+                <h1 class="header">Создайте шеринг на <u>своих</u> велосипедах и самокатах</h1>
+                <div class="row">
+                    <div class="item column column_center">
+                        <h3>
+                            Сервер
+                        </h3>
+                        <div class="img row">
+                            <img
+                                    class="img_cloud"
+                                    src="assets/cloud_icon.png"
+                                    alt="cloud">
+                        </div>
+                        <p>
+                            9% от транзакций
+                        </p>
+                    </div>
+                    <div class="item column column_center">
+                        <h3>
+                            Приложение
+                        </h3>
+                        <img
+                                class="img"
+                                src="assets/iphone_icon.png"
+                                alt="iphone">
+                        <p>
+                            Ваш логотип
+                        </p>
+                    </div>
+                    <div class="item column column_center">
+                        <h3>
+                            Замок
+                        </h3>
+                        <img
+                                class="img"
+                                src="assets/lock_icon.png"
+                                alt="bicycle lock">
+                        <ul>
+                            <li>
+                                Самокатный
+                            </li>
+                            <li>
+                                Велосипедный
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <button class="button">
+                Коммерческое предложение.pdf
+            </button>
+        </div>
+    </div>
+
+    <div id="example" class="examples column nav_padding">
+        <div class="row">
+            <p>
+                <b>Протестировали</b> приложение для iOS и Android на <u>своём прокате</u> из 10 велосипедов.
+                Для контроля за состоянием системы создали специальное веб-приложение.
+            </p>
+
+            <div class="row">
+                <img
+                        src="assets/iphone.png"
+                        alt="iphone"
+                        class="img">
+                <img
+                        src="assets/samsung.png"
+                        alt="android"
+                        class="img">
+                <img
+                        src="assets/macbook.png"
+                        alt="macbook"
+                        class="img">
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <p>
+                    <b>Разработали</b> самокатный и велосипедный замки.
+                </p>
+                <ul>
+                    <li>
+                        Сталь, алюминий, пластик
+                    </li>
+                    <li>
+                        CC2640R2, BLE 4.0
+                    </li>
+                    <li>
+                        2 года работы без подзарядки
+                    </li>
+                </ul>
+            </div>
+
+            <div class="row">
+                <img
+                        src="assets/scooter_lock.png"
+                        alt="scooter lock"
+                        class="img">
+                <img
+                        src="assets/bicycle_lock.png"
+                        alt="bicycle lock"
+                        class="img">
+            </div>
+        </div>
+    </div>
+</main>
+<footer id="contacts" class="footer column nav_padding">
+    <a class="link" href="mailto:sharingsystem@gmail.com">sharingsystem@gmail.com</a>
+    <a class="link" href="tel:+79119525411">+7(911)952-54-11</a>
+    <a class="link" href="https://t.me/borovoff">t.me/borovoff</a>
+</footer>
+</body>
+</html>
