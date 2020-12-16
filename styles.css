@@ -131,6 +131,7 @@ body {
 @media (max-width: 600px) {
     .wrap_small_screen {
         flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
