@@ -128,6 +128,12 @@ body {
     }
 }
 
+@media (max-width: 600px) {
+    .wrap_small_screen {
+        flex-wrap: wrap;
+    }
+}
+
 .footer {
     align-items: center;
     padding: 20px;
