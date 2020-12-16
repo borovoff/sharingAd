@@ -20,12 +20,16 @@
         <div
                 id="create_sharing"
                 class="create_sharing column">
-            <div class="column">
+            <div class="column column_mobile_center">
                 <div class="row wrap">
-                    <h1 class="header">Создайте шеринг на <u>своих</u> велосипедах и самокатах</h1>
+                    <h1 class="header">Создайте шеринг на
+                        <a
+                            class="link"
+                            target="_blank"
+                            href="https://medium.com/tzar/сезон-велошеринга-2020-9ba6de3541e2">своих</a> велосипедах и самокатах</h1>
                     <div class="row wrap_small_screen">
                         <div class="item column column_center">
-                            <h3>
+                            <h3 class="h3">
                                 Сервер
                             </h3>
                             <div class="img row">
@@ -34,44 +38,47 @@
                                         src="assets/cloud_icon.png"
                                         alt="cloud">
                             </div>
-                            <p>
-                                9% от транзакций
+                            <p class="img_caption">
+                                Комиссия 9%
                             </p>
                         </div>
                         <div class="item column column_center">
-                            <h3>
+                            <h3 class="h3">
                                 Приложение
                             </h3>
                             <img
                                     class="img"
                                     src="assets/iphone_icon.png"
                                     alt="iphone">
-                            <p>
+                            <p class="img_caption">
                                 Ваш логотип
                             </p>
                         </div>
                         <div class="item column column_center">
-                            <h3>
+                            <h3 class="h3">
                                 Замок
                             </h3>
                             <img
                                     class="img"
                                     src="assets/lock_icon.png"
                                     alt="bicycle lock">
-                            <ul class="ul">
+                            <ul class="ul ul_lock img_caption">
                                 <li>
-                                    Самокатный
+                                    Самокатный 40$
                                 </li>
                                 <li>
-                                    Велосипедный
+                                    Велосипедный 70$
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <button class="button">
+                <a
+                        target="_blank"
+                        href="assets/portfolio.pdf"
+                        class="button">
                     Коммерческое предложение.pdf
-                </button>
+                </a>
             </div>
         </div>
     </div>
@@ -81,52 +88,58 @@
         <div id="example" class="create_sharing column nav_padding">
             <div class="row wrap row_margin">
                 <p class="p">
-                    <b>Протестировали</b> приложение для iOS и Android на <u>своём прокате</u> из 10 велосипедов.
+                    <b>Протестировали</b> приложение для iOS и Android на
+                    <a
+                        class="link"
+                        target="_blank"
+                        href="https://medium.com/tzar/сезон-велошеринга-2020-9ba6de3541e2">своём прокате</a>
+                    из 10 велосипедов.
                     Для контроля за состоянием системы создали специальное веб-приложение.
                 </p>
 
                 <div class="row wrap_small_screen">
-                    <img
-                            src="assets/iphone.png"
-                            alt="iphone"
-                            class="img">
-                    <img
-                            src="assets/samsung.png"
-                            alt="android"
-                            class="img">
-                    <img
-                            src="assets/macbook.png"
-                            alt="macbook"
-                            class="img">
+                    <div class="img_screen_wrapper">
+                        <img
+                                src="assets/iphone.png"
+                                alt="iphone"
+                                class="img_screen">
+                    </div>
+                    <div class="img_screen_wrapper">
+                        <img
+                                src="assets/samsung.png"
+                                alt="android"
+                                class="img_screen">
+                    </div>
+                    <div class="img_screen_wrapper_laptop">
+                        <img
+                                src="assets/macbook.png"
+                                alt="macbook"
+                                class="img_screen">
+                    </div>
+
+
+
                 </div>
             </div>
             <div class="row wrap row_margin">
-                <div class="column">
-                    <p>
-                        <b>Разработали</b> самокатный и велосипедный замки.
-                    </p>
-                    <ul class="ul ul_materials">
-                        <li>
-                            Сталь, алюминий, пластик
-                        </li>
-                        <li>
-                            CC2640R2, BLE 4.0
-                        </li>
-                        <li>
-                            2 года работы без подзарядки
-                        </li>
-                    </ul>
-                </div>
+                <p class="lock_caption">
+                    <b>Разработали</b> самокатный и велосипедный замки.
+                </p>
 
                 <div class="row wrap_small_screen">
-                    <img
-                            src="assets/scooter_lock.png"
-                            alt="scooter lock"
-                            class="img">
-                    <img
-                            src="assets/bicycle_lock.png"
-                            alt="bicycle lock"
-                            class="img">
+                    <div class="img_lock">
+                        <img
+                                src="assets/scooter_lock.png"
+                                alt="scooter lock"
+                                class="img_screen">
+                    </div>
+                    <div class="img_lock">
+                        <img
+                                src="assets/bicycle_lock.png"
+                                alt="bicycle lock"
+                                class="img_screen">
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -134,9 +147,9 @@
 
 </main>
 <footer id="contacts" class="footer column">
-    <a class="link" href="mailto:sharingsystem@gmail.com">sharingsystem@gmail.com</a>
-    <a class="link" href="tel:+79119525411">+7(911)952-54-11</a>
-    <a class="link" href="https://t.me/borovoff">t.me/borovoff</a>
+    <a class="link_footer" href="mailto:sharingsystem@gmail.com">sharingsystem@gmail.com</a>
+    <a class="link_footer" href="tel:+79119525411">+7(911)952-54-11</a>
+    <a class="link_footer" href="https://t.me/borovoff">t.me/borovoff</a>
 </footer>
 </body>
 </html>
