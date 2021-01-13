@@ -64,3 +64,15 @@ body {
 .footer__link {
     color: var(--font-color);
 }
+
+.section {
+    margin: 20px
+}
+
+.price {
+    font-size: 24px;
+}
+
+.img {
+    height: 200px;
+}
