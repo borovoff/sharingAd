@@ -14,10 +14,12 @@ body {
     background-color: rgb(67, 178, 215);
     color: var(--font-color);
     border: none;
-    border-radius: 16px;
-    padding: 10px 16px;
-    font-size: 16px;
+    border-radius: 34px;
+    padding: 20px 32px;
+    font-size: 24px;
     cursor: pointer;
+    outline: none;
+    margin: 16px 0;
 }
 
 .row {
@@ -45,8 +47,41 @@ body {
     align-items: center;
 }
 
+.column_width {
+    width: 1000px;
+    margin: 30px;
+}
+
+.column_ul {
+    width: 400px;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    margin: 0 30px;
+}
+
+.column_margin {
+    margin: 10px;
+}
+
+.column_half-width {
+    width: 50%;
+}
+
 .row_evenly {
     justify-content: space-evenly;
+}
+
+.row_center {
+    justify-content: center;
+}
+
+.row_wrap {
+    flex-wrap: wrap;
+}
+
+.ul {
+    padding-left: 25px;
 }
 
 .ul_number {
@@ -57,8 +92,22 @@ body {
     list-style-type: none;
 }
 
+.ul_large-font {
+    font-weight: bold;
+}
+
+.ul_justify-text {
+    text-align: justify;
+}
+
+.li_margin {
+    margin: 10px 0;
+}
+
+
 .footer {
     background-color: var(--footer-color);
+    padding: 40px 10px;
 }
 
 .footer__link {
@@ -70,14 +119,95 @@ body {
     text-decoration: underline;
 }
 
+.footer__text {
+    color: var(--font-color);
+}
+
+.footer__column_width {
+    width: 260px;
+}
+
 .section {
-    margin: 20px
+    margin: 20px 0;
 }
 
 .p_bigger {
-    font-size: 24px;
+    font-size: 46px;
+}
+
+.p_center {
+    text-align: center;
+}
+
+.p_margin-left {
+    margin-left: 25px;
+}
+
+.img-wrapper {
+    width: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.img-wrapper_team {
+    width: 300px;
+}
+
+.img-wrapper_mobile {
+    width: 200px;
+}
+
+.img-wrapper_full-width {
+    width: 100%;
 }
 
 .img {
-    height: 200px;
+    width: 100%;
+    height: auto;
 }
+
+.link, .link:visited {
+    color: var(--header-color);
+}
+
+.h2 {
+    font-size: 30px;
+}
+
+.h3 {
+    margin: 30px 0 0;
+}
+
+.team_margin {
+    margin: 0 20px;
+}
+
+.item_grow {
+    flex-grow: 1;
+}
+
+@media only screen and (max-width: 1050px) {
+    .column_width {
+        width: calc(100% - 20px);
+        margin: 20px;
+    }
+
+    .column_ul {
+        width: unset;
+        margin: 0;
+    }
+
+    .button {
+        font-size: 16px;
+    }
+
+    .team_margin {
+        margin: 0;
+    }
+
+    .column_half-width {
+        width: unset;
+    }
+}
+
+
