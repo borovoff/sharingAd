@@ -51,7 +51,8 @@ body {
     position: absolute;
     left: 14px;
     top: -6px;
-    background-color: white;
+    background-color: var(--section-color);
+    border-radius: 5px;
     font-size: 12px;
     color: rgb(102, 102, 102);
 }
