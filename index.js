@@ -5,6 +5,7 @@ document.body.appendChild(footer)
 fetch('footer').then(async result => footer.innerHTML = await result.text())
 
 const form = document.getElementById('form')
+const serverError = document.getElementById('serverError')
 
 form.addEventListener('submit', event => {
     event.preventDefault()
@@ -18,7 +19,11 @@ form.addEventListener('submit', event => {
         body: JSON.stringify(object)
     })
         .then(result => result.json())
-        .then(result => console.log(result))
+        .then(result => {
+            if (result.hasOwnProperty('error')) {
+                serverError.textContent = result.error
+            }
+        })
         .catch(error => console.log(error))
 })
 

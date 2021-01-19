@@ -240,22 +240,16 @@
             <form id="form">
 
                 <label class="form__label">
-                    <span class="form__caption hide">Имя</span>
-                    <input
-                        class="input"
-                        placeholder="Имя"
-                        name="name"
-                        type="text">
-                </label>
-
-                <label class="form__label">
                     <span class="form__caption hide">Email</span>
                     <input
+                        required
                         class="input"
                         placeholder="Email"
                         name="email"
                         type="email">
                 </label>
+
+                <p id="serverError"></p>
 
                 <input
                     class="button"
