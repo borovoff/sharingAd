@@ -8,8 +8,27 @@ const form = document.getElementById('form')
 
 form.addEventListener('submit', event => {
     event.preventDefault()
-    // TODO: server send
+
+    const object = getObject()
+    fetch('https://sharing.tzar.su/api/save-email/', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(object)
+    })
+        .then(result => result.json())
+        .then(result => console.log(result))
+        .catch(error => console.log(error))
 })
+
+function getObject() {
+    const formData = new FormData(form)
+    const object = {}
+    formData.forEach((value, key) => object[key] = value)
+
+    return object
+}
 
 const inputs = form.getElementsByTagName('input')
 for (let i = 0; i < inputs.length; i++) {
