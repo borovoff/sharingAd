@@ -27,7 +27,7 @@ body {
 
 .input {
     padding: 17px 16px;
-    border: solid 2px rgb(218, 220, 224);
+    border: solid 2px black;
     border-radius: 10px;
     font-size: 14px;
     outline: none;
@@ -35,7 +35,6 @@ body {
     height: 100%;
     box-sizing: border-box;
     background-color: transparent;
-    caret-color: rgb(83, 166, 243);
 }
 
 .form__label {
@@ -43,7 +42,7 @@ body {
     position: relative;
     width: 360px;
     height: 54px;
-    margin: 12px;
+    margin: 12px 0;
 }
 
 .form__caption {
@@ -54,7 +53,7 @@ body {
     background-color: var(--section-color);
     border-radius: 5px;
     font-size: 12px;
-    color: rgb(102, 102, 102);
+    color: black;
 }
 
 .row {
@@ -223,6 +222,10 @@ body {
 
 .item_grow {
     flex-grow: 1;
+}
+
+.hide {
+    display: none;
 }
 
 @media only screen and (max-width: 1050px) {
