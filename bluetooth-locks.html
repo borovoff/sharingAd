@@ -52,8 +52,8 @@
                             </li>
                             <li>
                                 Bluetooth 4.0, беспроводная прошивка,
-                                <a 
-                                    class="link" 
+                                <a
+                                    class="link"
                                     href="https://docs.google.com/document/d/1aGbrjntxn7mKi5C5H76JviIzk4d8JAtwJBWREYTHg9M/edit"
                                     target="_blank">
                                     API
@@ -81,6 +81,7 @@
                             и для партии и для образца
                         </p>
                         <a
+                            onclick="linkClick('scooter')"
                             href="#makeOrder"
                             class="button">Заказать образец</a>
                     </div>
@@ -104,8 +105,8 @@
                             </li>
                             <li>
                                 Bluetooth 4.0, беспроводная прошивка,
-                                <a 
-                                    class="link" 
+                                <a
+                                    class="link"
                                     href="https://docs.google.com/document/d/1aGbrjntxn7mKi5C5H76JviIzk4d8JAtwJBWREYTHg9M/edit"
                                     target="_blank">
                                     API
@@ -127,6 +128,7 @@
                             и для партии и для образца
                         </p>
                         <a
+                            onclick="linkClick('bike')"
                             href="#makeOrder"
                             class="button">Заказать образец</a>
                     </div>
@@ -141,7 +143,6 @@
         <div class="column_width">
             <h2>Заказ на изготовление образца (2-3 недели)</h2>
             <form id="form">
-
                 <label class="form__label">
                     <span class="form__caption hide">Email</span>
                     <input
@@ -150,6 +151,28 @@
                         name="email"
                         type="email">
                 </label>
+
+                <label class="form__label">
+                    <span class="form__caption">Тип замка</span>
+                    <select
+                        id="lockType"
+                        class="input select"
+                        name="lockType">
+                        <option
+                            class="select__option"
+                            value="bike">Для велосипеда</option>
+                        <option
+                            class="select__option"
+                            value="scooter">Для самоката</option>
+                    </select>
+                </label>
+
+                <p id="serverError"></p>
+
+                <input
+                    class="button"
+                    value="Отправить"
+                    type="submit">
 
             </form>
         </div>

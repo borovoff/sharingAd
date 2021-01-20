@@ -18,10 +18,19 @@ form.addEventListener('submit', event => {
         },
         body: JSON.stringify(object)
     })
-        .then(result => result.json())
         .then(result => {
-            if (result.hasOwnProperty('error')) {
-                serverError.textContent = result.error
+            if (result.ok) {
+                location.href = 'success-save-email'
+            } else {
+                return result.json()
+            }
+        })
+        .then(result => {
+            const error = result.error
+            if (error) {
+                serverError.textContent = error
+            } else {
+                serverError.textContent = 'Что-то пошло не так, наши контакты указаны ниже.'
             }
         })
         .catch(error => console.log(error))
@@ -33,6 +42,11 @@ function getObject() {
     formData.forEach((value, key) => object[key] = value)
 
     return object
+}
+
+function linkClick(lockType) {
+    const select = document.getElementById('lockType')
+    select.value = lockType
 }
 
 const inputs = form.getElementsByTagName('input')
