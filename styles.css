@@ -24,6 +24,9 @@ body {
     margin: 16px 0;
     display: inline-block;
     text-decoration: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 .input {
