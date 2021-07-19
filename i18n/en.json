@@ -1,10 +1,182 @@
 {
     "index": {
         "ul": {
-            "1": "Организуйте шеринг на любых велосипедах и самокатах",
-            "2": "Попробуйте демо-образцы оборудования по оптовой цене",
-            "3": "Пользуйтесь бесплатным ПО",
-            "4": "Не предосталяем франшизу или готовый бизнес"
+            "1": "E-locks and software <br> for sharing business <br> with <i>your</i> bikes and scooters <br> ",
+            "2": "Samples are available",
+            "3": "Software is free for beginners",
+            "4": "We do not provide franchise or ready-made business",
+            "5": "Contact us",
+            "6": "E-locks: samples are available",
+            "7": "Bluetooth locks with API",
+            "8": "Just lock your vehicles with our e-lock and after that users can rent them via app. Geolocation sends to server at each opening / closing.",
+            "9": "See example of",
+            "10": "our demo-sharing",
+            "11": "with simple bikes",
+            "12": "",
+            "13": "Soft: free basic version",
+            "14": "iOS and Andorid apps",
+            "15": "(White label).",
+            "16": "We'll adjust our apps' UI according to your brand. <i>Basic version — for free</i>.",
+            "17": "Server with API",
+            "18": "Use our server <i>for free, if number of vehicles is &lt; 10</i>",
+            "19": "Control panel",
+            "20": "Refunds, user blocking, calculation of optimal areas for vehicles distribution etc. <i>Basic version — for free</i>.",
+            "21": "How to start business with us",
+            "22": "Contact us",
+            "23": "and tell what you want. For example, buy sample, get consulatation, meet.",
+            "24": "We'll prepare a production contract. Min order: 100 pieces.",
+            "25": "If you want to use our software, we will connect your checking account to our server, give you access to the control panel and publish apps with your branding ",
+            "26": "Prices and production time",
+            "27": "Scooter",
+            "28": "55 USD",
+            "29": "Bicycle",
+            "30": "95 USD",
+            "31": "Sample — 2-3 weeks <br>Batch of 100-1000pcs — 2-4 months <br>Prces are the same for sample and for batch<br>",
+            "32": "Server",
+            "33": "apps",
+            "34": "control panel",
+            "35": "for free",
+            "36": "if number of vehicles is &lt; 10 and you do not need any software changes. Prices and timing for changes — contractual",
+            "37": "Prerequisites",
+            "38": "Bicycles and scooters.",
+            "39": "We do not sell vehicles, so you need to buy them by yourself. You can use any bike or scooter. Read, for example,",
+            "40": "how to prepare bicycles for sharing.",
+            "41": "Van or trailer for vehicles distribution.",
+            "42": "You can increase number of rides by continuous placing bicycle and scooters in crowded places.",
+            "43": "Technical skills.",
+            "44": "It's important to have equipment in safe and prepared state. If your sharing service grows you'll have to hire mechanics.",
+            "45": "Storage.",
+            "46": "Here you will store your biycles and scooters when the season is over",
+            "47": "How to Start Sharing",
+            "48": "Brand stickers.",
+            "49": "They should contain link to the app",
+            "50": "Set your sharing rules.",
+            "51": "You can set parking zones, contacts and tariffs via control panel and they will we displayed in the app.",
+            "52": "Place your vehicles on the streets.",
+            "53": "Try to accumulate vehicles in crowded places",
+            "54": "Receive income to your cheking account.",
+            "55": "Our demo-sharing of 10 bicycles",
+            "56": "has showed profitability of 20 USD/month/bicyle",
+            "57": "About us",
+            "58": "We create IT and electronic infrastructure needed for automated renting",
+            "59": "Send",
+            "60": "E-locks and software for sharing — StartSharing",
+            "61": "E-locks and software supplier for organisation or automatisation of bicycles and scooters rental business"
+        }
+    },
+    "demo-sharing":{
+        "ul":{
+            "1": "Demo-sharing",
+            "2": "System testing results",
+            "3": "We have opened our own bike-sharing",
+            "4": "of 10 bicycles Schwinn Gammon in St. Petersburg, Russia with 3₽/min tariff for system testing.",
+            "5": "System is tuned and stable now, so <b>we are ready to offer you e-locks and access to software</b>.",
+            "6": "Achievements:",
+            "7": "assets/revenue_en.png",
+            "8": "Statistics and profitability of bike-sharing",
+            "9": "Distribution of rides' starts/ends on the map",
+            "10": "Parking spots popularity after system testing",
+            "11": "Rides for 3 months",
+            "12": "Registered users",
+            "13": "Ads",
+            "14": "0 USD",
+            "15": "Bicycles are locked by bluetooth lock and shared at 3₽/min tariff",
+            "16": "Statistics",
+            "17": "Demo-sharing — StartSharing",
+            "18": "Our demo-sharing helps to estimate profitability of automated rental business"
+        }
+    },
+    "apps":{
+        "ul":{
+            "1": "Apps for sharing system organisation — StartSharing",
+            "2": "Apps in basic version are tested on demo-sharing are free to use",
+            "3": "Apps for iOS and Android",
+            "4": "Basic version",
+            "5": "Apps for Android and iOS for sharing system organisation",
+            "6": "Tested on",
+            "7": "our sharing system",
+            "8": "Registration via VKontakte",
+            "9": "Payments via YooKassa",
+            "10": "QR code recognition",
+            "11": "Sends geolocation to server after every lock's opening/closing",
+            "12": "Sends to server photo of locked e-lock"
+        }
+    },
+    "bluetooth-locks":{
+        "ul":{
+            "1": "Bluetooth locks for sharing system — StartSharing",
+            "2": "You can use e-locks to rent out your bicycles and scooters",
+            "3": "Bluetooth locks with API",
+            "4": "For scooter",
+            "5": "Bluetooth lock for scooter",
+            "6": "Closes with a click",
+            "7": "Bluetooth 4.0, over-the-air firmware update,",
+            "8": "2 years accumulator lifetime",
+            "9": "Steel cable 4mm, aluminium body",
+            "10": "Waterproof button",
+            "11": "Price: <b>55 USD</b>",
+            "12": "and for batch and for sample",
+            "13": "Order sample",
+            "14": "For bicycle",
+            "15": "Bluetooth lock for bicycle",
+            "16": "Motor not blocks while body and arc are strained relative to each other",
+            "17": "12mm arc and 3mm body of stainless steel",
+            "18": "Price: <b>95 USD</b>",
+            "19": "Sample production order (2-3 weeks)",
+            "20": "Lock type",
+            "21": "Send"
+        }
+    },
+    "web-service":{
+        "ul":{
+            "1": "Control panel for sharing system management — StartSharing",
+            "2": "Cotrol panel let you monitor sharing system and resolve users' problems",
+            "3": "Control panel for monitoring",
+            "4": "Basic version",
+            "5": "Control panel for sharing system management",
+            "6": "Tested on",
+            "7": "our sharing system",
+            "8": "Calculation of optimal areas for vehicles distribution",
+            "9": "Rides and locks state",
+            "10": "User blocking",
+            "11": "Refunds",
+            "12": "Notification of ride start/end, giving rent permission to user via telegram-bot",
+            "13": "Rides data: geolocation, time, photo",
+            "14": "Setting up of tariff, contacts, parking zones",
+            "15": "Open"
+        }
+    },
+    "team":{
+        "ul":{
+            "1": "Team — StartSharing",
+            "2": "We create IT and electronic infrastructure needed for automated renting",
+            "3": "Team",
+            "4": "Alexander Borovov — StartSharing",
+            "5": "Alexander Borovov",
+            "6": "Software architecture, server part, website, Android and iOS apps",
+            "7": "Andrei Shabelskii — StartSharing",
+            "8": "Andrei Shabelskii",
+            "9": "Mechanics, electronics, firmware, Android app"
+        }
+    },
+    "success-save-email":{
+        "ul":{
+            "1": "Order created",
+            "2": "Thanks for order!",
+            "3": "An email has been sent to you. If you don't see it, check your spam folder, or try again.",
+            "4": "Back"
+        }
+    },
+    "footer":{
+        "ul":{
+            "1": "E-locks",
+            "2": "E-locks API",
+            "3": "Server API",
+            "4": "Team",
+            "5": "Blog",
+            "6": "Demo-sharing system",
+            "7": "Privacy Policy",
+            "8": "Russia, Saint-Petersburg"
         }
     }
 }

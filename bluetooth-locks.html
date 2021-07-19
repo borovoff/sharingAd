@@ -25,11 +25,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
-    <title>Bluetooth замки для шеринга — StartSharing</title>
-    <meta name="description" content="На наши замки с открытым API можно пристегивать любые велосипеды и самокаты, чтобы сдавать их в аренду"/>
+    <title>{{ul.1}}</title>
+    <meta name="description" content="{{ul.2}}"/>
 
-    <meta property="og:title" content="Электронные bluetooth замки для шеринга — StartSharing" />
-    <meta property="og:description" content="На наши замки с открытым API можно пристегивать любые велосипеды и самокаты, чтобы сдавать их в аренду."/>
+    <meta property="og:title" content="{{ul.1}}" />
+    <meta property="og:description" content="{{ul.2}}"/>
     <meta property="og:url" content="https://startsharing.ru/bluetooth-locks" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="assets/og_banner_1200x630.png" />
@@ -47,7 +47,7 @@
     <div class="column column_center column_blue">
         <div class="column_width">
             <h1 class="column_blue__h">
-                Bluetooth замки с API<br>
+                {{ul.3}}<br>
                 <a class="link-home" href="/">StartSharing</a>
             </h1>
         </div>
@@ -56,23 +56,23 @@
     <div class="column column_center">
         <div class="column_width">
             <div class="section">
-                <h2 class="h2">Для самоката</h2>
+                <h2 class="h2">{{ul.4}}</h2>
                 <div class="row row_wrap">
                     <div class="img-wrapper">
                         <img
                                 class="img"
                                 src="assets/scooter_sharing_lock.png"
-                                alt="Bluetooth замок для самоката">
+                                alt="{{ul.6}}">
                     </div>
 
 
                     <div class="column_ul">
                         <ul class="ul">
                             <li>
-                                Закрывается защелкиванием
+                                {{ul.6}}
                             </li>
                             <li>
-                                Bluetooth 4.0, беспроводная прошивка,
+                                {{ul.7}}
                                 <a
                                     class="link"
                                     href="https://docs.google.com/document/d/1aGbrjntxn7mKi5C5H76JviIzk4d8JAtwJBWREYTHg9M/edit"
@@ -81,51 +81,45 @@
                                 </a>
                             </li>
                             <li>
-                                2 года без подзарядки
+                                {{ul.8}}
                             </li>
                             <li>
-                                Стальной трос 4мм
+                                {{ul.9}}
                             </li>
                             <li>
-                                Алюминиевый корпус
-                            </li>
-                            <li>
-                                Водонепроницаемая кнопка
-                            </li>
-                            <li>
-                                Крпеление и отверстия для него (опция)
+                                {{ul.10}}
                             </li>
                         </ul>
 
                         <p>
-                            <span class="p_bigger">Цена: <b>4000р</b></span><br>
-                            и для партии и для образца
+                            <span class="p_bigger">{{ul.11}}</span><br>
+                            {{ul.12}}
                         </p>
                         <a
                             onclick="linkClick('scooter')"
                             href="#makeOrder"
-                            class="button">Заказать образец</a>
+                            class="button">{{ul.13}}</a>
                     </div>
                 </div>
             </div>
 
             <div class="section">
-                <h2 class="h2">Для велосипеда</h2>
+                <h2 class="h2">{{ul.14}}</h2>
                 <div class="row row_wrap">
                     <div class="img-wrapper">
                         <img
                                 class="img"
                                 src="assets/bicycle_sharing_lock.png"
-                                alt="Bluetooth замок для велосипеда">
+                                alt="{{ul.15}}">
                     </div>
 
                     <div class="column_ul">
                         <ul class="ul">
                             <li>
-                                Мотор в замке не блокируется при натяжении дуги относительно корпуса
+                                {{ul.16}}
                             </li>
                             <li>
-                                Bluetooth 4.0, беспроводная прошивка,
+                                {{ul.7}}
                                 <a
                                     class="link"
                                     href="https://docs.google.com/document/d/1aGbrjntxn7mKi5C5H76JviIzk4d8JAtwJBWREYTHg9M/edit"
@@ -134,24 +128,24 @@
                                 </a>
                             </li>
                             <li>
-                                2 года без подзарядки
+                                {{ul.8}}
                             </li>
                             <li>
-                                Дуга 12мм и корпус 3мм из нержавеющей стали
+                                {{ul.17}}
                             </li>
                             <li>
-                                Водонепроницаемая кнопка
+                                {{ul.10}}
                             </li>
                         </ul>
 
                         <p>
-                            <span class="p_bigger">Цена: <b>7000р</b></span><br>
-                            и для партии и для образца
+                            <span class="p_bigger">{{ul.18}}</span><br>
+                            {{ul.12}}
                         </p>
                         <a
                             onclick="linkClick('bike')"
                             href="#makeOrder"
-                            class="button">Заказать образец</a>
+                            class="button">{{ul.13}}</a>
                     </div>
                 </div>
             </div>
@@ -162,7 +156,7 @@
         id="makeOrder"
         class="column column_center column_grey">
         <div class="column_width">
-            <h2>Заказ на изготовление образца (2-3 недели)</h2>
+            <h2>{{ul.19}}</h2>
             <form id="form">
                 <label class="form__label">
                     <span class="form__caption hide">Email</span>
@@ -174,17 +168,17 @@
                 </label>
 
                 <label class="form__label">
-                    <span class="form__caption">Тип замка</span>
+                    <span class="form__caption">{{ul.20}}</span>
                     <select
                         id="lockType"
                         class="input select"
                         name="lockType">
                         <option
                             class="select__option"
-                            value="bike">Для велосипеда</option>
+                            value="bike">{{ul.14}}</option>
                         <option
                             class="select__option"
-                            value="scooter">Для самоката</option>
+                            value="scooter">{{ul.4}}</option>
                     </select>
                 </label>
 
@@ -192,7 +186,7 @@
 
                 <input
                     class="button"
-                    value="Отправить"
+                    value="{{ul.21}}"
                     type="submit">
 
             </form>
